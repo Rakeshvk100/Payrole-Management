@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" type="text/css" href="empregister.css">
+  </head>
+  <body>
+      <ul style="margin:0px;padding:0px;list-style: none">
+           <li><a href="adminhome.html"><img src="home-icon.png"  width="40" height="40" class ="imag" ></a></li>
+      </ul>
+    <div class="reg">
+      <form action="empregister.php" method="POST">
+        <h2>REGISTER HERE</h2><br>
+        <label><b>Employee ID: </b></label>
+          <input type="text" name="id" placeholder="ID" required><br><br>
+        <label><b>Employee Name: </b></label>
+          <input type="text" name="name" placeholder="Name" required><br><br>
+        <label><b>Date Of Birth: </b></label>
+          <input type="date" name="dob" placeholder="Date Of Birth" required><br><br>
+        <label><b>Gender: </b></label>
+          <select name="gender">
+            <option>---</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          <select><br><br>
+        <label><b>Address: </b></label>
+          <input type="textbox" name="address" placeholder="Address" required><br><br>
+        <label><b>Contact Number: </b></label>
+          <input type="text" name="contact" placeholder="Phone Number" required><br><br>
+        <label><b>Date Of Joining: </b></label>
+          <input type="date" name="doj" placeholder="Date Of Joining" required><br><br>
+        <label><b>Email ID: </b></label>
+          <input type="email" name="email" placeholder="Email ID" required><br><br>
+        <label><b>Department: </b></label>
+          <select name="department">
+            <option>---</option>
+            <option value="general">General Department</option>
+            <option value="marketing">Marketing Department</option>
+            <option value="finance">Finance Department</option>
+            <option value="sales">Sales Department</option>
+            <option value="human resource">Human Resource Department</option>
+          </select><br><br>
+          <label><b>Password: </b></label>
+            <input type="password" name="password" placeholder="Password"><br><br>
+          <label><b>Confirm Password: </b></label>
+            <input type="password" name="cpassword" placeholder="Confirm Password"><br><br>
+          <button type="submit" name='submit' id="submit"><b>Register</b></button>
+        </form>
+    </div>
+  </body>

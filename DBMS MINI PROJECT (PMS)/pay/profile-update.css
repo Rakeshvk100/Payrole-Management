@@ -1,0 +1,80 @@
+body{
+    background: url(pays.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:sans-serif;
+}
+
+.change
+{
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    border-collapse: collapse;
+    margin: 25px 25px;
+    padding:2%;
+    width:30%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+center
+{
+    padding-top: 3%;
+}
+
+label
+{
+    text-shadow: 1px 1px 2px blue;
+    text-decoration: underline;
+    color: lightblue;
+}
+
+.change input
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: white;
+    opacity: .9;
+    outline: none;
+    height: 35px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    width: 70%;
+    padding: 3%;
+}
+
+textarea
+{
+    font-family:sans-serif;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: white;
+    opacity: .9;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    width: 80%;
+    padding: 3%;
+    resize:none;
+
+}
+
+button{
+    border: solid black;
+    outline: none;
+    height: 30px;
+    background: #1c8adb;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight:bolder;
+}
+
+button:hover
+{
+    background:#cc00cc;
+}

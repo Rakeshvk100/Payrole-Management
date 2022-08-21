@@ -1,0 +1,28 @@
+body
+{
+
+    background: url("pays.png");
+    background-size: cover;
+    background-position: fixed;
+    font-family: sans-serif;
+}
+
+ul{
+   margin:0px;
+   padding:0px;
+   list-style: none;
+}
+
+div{
+    width:50%;
+    font-size: 17px;
+    padding: 5%;
+    line-height: 24px;
+    background-color: rgb(0,0,0,0.9);
+    color:white;
+    border-radius: 25px;
+}
+center
+{
+    padding-top: 5%;
+}

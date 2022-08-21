@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>PAY SLIP</title>
+    <link rel="stylesheet" type="text/css" href="salaryslip.css">
+  </head>
+
+  <body>
+      <ul style="margin:0px;padding:0px;list-style: none">
+           <li><a href="adminhome.html"><img src="home-icon.png"  width="40" height="40" class ="imag" ></a></li>
+      </ul>
+    <div class="reg">
+        <form action="salaryslip.php" method="POST" >
+              <h2>ENTER THE SALARY DETAILS</h2><br>
+                <label><b>Employee ID: </b></label>
+                    <input type="text" name="id" placeholder="Emp ID"required ><br><br>
+
+              <h4><u>EARNINGS</u></h4>
+                    <label><b>Monthly Allowance: </b></label>
+                        <input type="text" name="monthlyallow" placeholder=" MTD"required><br><br>
+                    <label><b>Basic Pay: </b></label>
+                            <input type="text" name="basicpay" placeholder=" MTD"required><br><br>
+                    <label><b>Dearness Allowance:</b></label>
+                        <input type="text" name="da" placeholder=" MTD"required ><br><br>
+                    <label><b>Conveyance Allowance:</b></label>
+                        <input type="text" name="ca" placeholder=" MTD"required ><br><br>
+                    <label> <b>HRA:</b></label>
+                        <input type="text" name="hra" placeholder=" MTD" required><br><br>
+                    <label> <b>Food Allowance:</b></label>
+                        <input type="text" name="foodallow" placeholder=" MTD" required><br><br>
+                    <label><b>Bonus:</b></label>
+                        <input type="text" name="bonus" placeholder=" MTD" required><br><br>
+
+            <h4><u>DEDUCTIONS</u></h4>
+                    <label><b>Provisional Tax:</b></label>
+                        <input type="text" name="provisional" placeholder=" MTD"required ><br><br>
+                    <label><b>Provident Fund:</b></label>
+                        <input type="text" name="provident" placeholder=" MTD" required><br><br>
+                    <label><b>Insurance:</b></label>
+                        <input type="text" name="insurance" placeholder=" MTD" required><br><br>
+
+            <button type="submit" name="submit" id="submit"><b>Submit</b></button>
+
+        </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+body
+{
+
+    background: url("pays.png");
+    background-size: cover;
+    background-position: fixed;
+    font-family: sans-serif;
+}
+
+ul{
+   margin:0px;
+   padding:0px;
+   list-style: none;
+}
+
+ul li{
+   float:left;
+    background-color: black;
+
+   line-height: 50px;
+   text-align: center;
+   font-size: 23px;
+}
+ul li a{
+   text-decoration:none;
+   color: white;
+   display:block;
+}
+ul li a:hover{
+   background-color:#cc00cc;
+}
+
+.reg textarea
+{
+    resize:none;color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1%
+}
+.reg
+{
+    padding-top: 40px;
+}
+.reg
+{ position:sticky;
+    color: white;
+    width:50%;
+    margin:auto;
+    background:rgb(0,0,0,0.9);
+    opacity:.8;
+    padding:10px;
+    border-radius: 20px;
+    border-style: groove;
+}
+.reg input[type="text"],input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: white;
+    opacity: .5
+    outline: none;
+    height: 35px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+center
+{
+    padding-top: 2%;
+}
+
+h2
+{
+    text-shadow: 1px 1px 2px blue;
+    text-decoration: underline;
+    color: lightblue;
+}
+h5
+{
+color: lightblue;
+}
+
+.end
+{
+    color:white;
+}
+
+button{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover
+{
+    background:#cc00cc;
+}
